@@ -1,3 +1,7 @@
+/* * {
+  outline: 1px solid tomato;
+} */
+
 h1,
 h2,
 h3,
@@ -194,6 +198,7 @@ body {
   background-position: center;
   background-size: cover;
   object-fit: contain;
+  resize: none;
 }
 
 .order-service {
@@ -233,7 +238,7 @@ body {
 .goal-item {
   display: flex;
   align-items: center;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   gap: 24px;
 }
 
@@ -285,7 +290,7 @@ body {
 .name-photo {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .text {
@@ -390,4 +395,73 @@ ul {
   border-radius: 0px 0px 4px 4px;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.container-list-icon {
+  padding: 24px 100px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.svg-icon {
+  width: 40px;
+  height: 40px;
+}
+.svg-our-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.svg-our {
+  width: 16px;
+  max-height: 16px;
+  border: 1px solid transparent;
+  
+  /* padding: 12px 12px 12px 12px; */
+  /* width: 16px;
+  height: 16px; */
+
+  fill:currentColor;
+  /* border-radius: 50%; */
+}
+.ul-svg {
+  display: flex;
+  gap: 24px;
+  margin-left: 16px;
+  margin-top: 8px;
+  /* width: 40px;
+  height: 40px; */
+  /* border-radius: 50%; */
+}
+
+.logo-ul {
+  display: flex; 
+  gap: 24px;
+  box-shadow: 8E8F99;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.svg-logo {
+  width: 104px;
+  height: 56px;
+  border: 1px solid transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-logo-list {
+  justify-content: center;
+  align-items: center;
+}
+
+.cocial {
+  display: flex;
 }
