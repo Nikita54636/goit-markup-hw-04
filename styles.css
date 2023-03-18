@@ -338,7 +338,7 @@ body {
 }
 
 .container-footer {
-  flex-direction: column;
+  /* flex-direction: column; */
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -382,8 +382,6 @@ ul {
 .link {
   text-decoration: none;
 }
-.navigation {
-}
 
 :root {
   --primary-brand: #4d5ae5;
@@ -408,7 +406,7 @@ ul {
   width: 40px;
   height: 40px;
 }
-.svg-our-list{
+.svg-our-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,12 +420,12 @@ ul {
   width: 16px;
   max-height: 16px;
   border: 1px solid transparent;
-  
+
   /* padding: 12px 12px 12px 12px; */
   /* width: 16px;
   height: 16px; */
 
-  fill:currentColor;
+  fill: currentColor;
   /* border-radius: 50%; */
 }
 .ul-svg {
@@ -441,9 +439,9 @@ ul {
 }
 
 .logo-ul {
-  display: flex; 
+  display: flex;
   gap: 24px;
-  box-shadow: 8E8F99;
+  box-shadow: 8e8F99;
   justify-content: center;
   align-items: center;
   border: 1px solid transparent;
@@ -462,6 +460,65 @@ ul {
   align-items: center;
 }
 
-.cocial {
+.svg-our-list-footer {
+  flex-direction: column;
+  /* align-content: column; */
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.svg-our-footer {
+  /* flex-direction: column; */
+  width: 16px;
+  max-height: 16px;
+  border: 1px solid transparent;
+
+  /* padding: 12px 12px 12px 12px; */
+  /* width: 16px;
+  height: 16px; */
+
+  fill: currentColor;
+  /* border-radius: 50%; */
+}
+.ul-svg-footer {
+  /* flex-direction: column; */
+  gap: 24px;
+  margin-left: 16px;
+  margin-top: 8px;
+  /* width: 40px;
+  height: 40px; */
+  /* border-radius: 50%; */
+}
+
+.last {
+  display: flex;
+}
+/* .container-footer {
+  display: flex;
+  flex-direction: column;
+} */
+.decorative-container-footer {
+  display: flex;
+}
+.logo-ul1 {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+  padding-left: 120px;
+}
+
+.social {
+  padding-left: 120px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
 }
