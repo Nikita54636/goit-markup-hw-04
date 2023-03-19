@@ -519,9 +519,9 @@ ul {
   padding-top: 16px;
   padding-left: 120px;
 }
-.logo-ul1:hover,
+/* .logo-ul1:hover,
 .logo-ul1:focus {
-}
+} */
 
 .social {
   padding-left: 120px;
@@ -536,7 +536,7 @@ ul {
 
 .teg-a:hover,
 .teg-a:focus {
-  display: block;
+  display: contents;
   border-radius: 0px 0px 4px 4px;
   color: #404bbf;
   margin-top: 8px;
