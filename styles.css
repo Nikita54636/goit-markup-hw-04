@@ -420,6 +420,7 @@ ul {
 .svg-our-list:hover,
 .svg-our-list:focus {
   background-color: #404bbf;
+  border-radius: 50%;
 
   /* color: #404bbf; */
 }
@@ -495,9 +496,10 @@ ul {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.svg-our-list-footer:hover,
-.svg-our-list-footer:focus {
+.svg-our-footer:hover,
+.svg-our-footer:focus {
   background-color: #31d0aa;
+  border-radius: 50%;
 }
 
 .svg-our-footer {
@@ -536,15 +538,12 @@ ul {
 .logo-ul1 {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
-  margin-left: 120px;
 }
 /* .logo-ul1:hover,
 .logo-ul1:focus {
 } */
 
 .social {
-  margin-left: 120px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -604,4 +603,9 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+.teg-footer {
+}
+.decorative-container-footer1 {
+  margin-left: 128px;
 }
