@@ -551,6 +551,7 @@ ul {
   line-height: 24px;
   color: #ffffff;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 /* .teg-a:hover,
@@ -607,5 +608,15 @@ ul {
 .teg-footer {
 }
 .decorative-container-footer1 {
-  margin-left: 128px;
+  margin-right: 128px;
+}
+.teg-footer:hover,
+.teg-footer:focus {
+  background-color: #31d0aa;
+  border-radius: 50%;
+}
+
+.svg-our-list-footer:hover,
+.svg-our-list-footer:focus {
+  background-color: #31d0aa;
 }
