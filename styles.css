@@ -614,6 +614,17 @@ ul {
 .teg-footer:focus {
   background-color: #31d0aa;
   border-radius: 50%;
+  flex-direction: column;
+  /* align-content: column; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #31d0aa;
+  border-radius: 50%;
 }
 
 .svg-our-list-footer:hover,
